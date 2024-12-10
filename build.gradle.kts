@@ -22,4 +22,6 @@ tasks.withType<Jar> {
             "Main-Class" to "me.leonrobi.Main"
         )
     }
+
+    destinationDirectory.set(file("launch4j"))
 }
