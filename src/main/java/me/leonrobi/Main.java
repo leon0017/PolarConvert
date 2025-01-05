@@ -37,12 +37,12 @@ public class Main {
         gbc.gridy = 0;
 
         JTextField folderPathField = new JTextField();
-        folderPathField.setEditable(false);
+        folderPathField.setEditable(true);
         folderPathField.setPreferredSize(new Dimension(300, 25));
         JButton browseFolderButton = new JButton("Select Folder");
 
         JTextField filePathField = new JTextField();
-        filePathField.setEditable(false);
+        filePathField.setEditable(true);
         filePathField.setPreferredSize(new Dimension(300, 25));
         JButton browseFileButton = new JButton("Select File");
 

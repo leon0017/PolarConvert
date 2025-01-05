@@ -20,6 +20,10 @@ tasks.jar {
     isEnabled = false
 }
 
+tasks.build {
+    dependsOn(tasks.shadowJar)
+}
+
 tasks.withType<Jar> {
     manifest {
         attributes(
