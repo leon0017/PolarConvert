@@ -16,6 +16,10 @@ dependencies {
     implementation("dev.hollowcube:polar:1.12.0")
 }
 
+tasks.jar {
+    isEnabled = false
+}
+
 tasks.withType<Jar> {
     manifest {
         attributes(
